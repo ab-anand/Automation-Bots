@@ -1,9 +1,9 @@
 from cleverwrap import CleverWrap
 import pyttsx
 import os
-os.environ["HTTPS_PROXY"] = "http://ipg_2015003:abhi%4098@192.168.1.107:3128"
+os.environ["HTTPS_PROXY"] = "http://usr_name:pass@proxy:port"
 
-cw = CleverWrap("CC1e4meQiePYWnw2-OLoyZ9zcLw")
+cw = CleverWrap("API_KEY")
 
 
 a='y'
