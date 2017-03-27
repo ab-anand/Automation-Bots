@@ -3,8 +3,8 @@
 import wolframalpha
 
 query=raw_input('Ask me something: ')
-app_id='2V3684-LXELTTTJ9J'
-#This app_id has been deactivated.
+app_id='API_KEY'
+
 
 client=wolframalpha.Client(app_id)
 
