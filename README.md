@@ -6,5 +6,10 @@ Before running the programs make sure you have installed the libraries or module
 ## View the demo of the bots here at this channel
 [Bots | Youtube](https://www.youtube.com/channel/UCJPR7NC5igzhgzjRFeNWLvQ)
 
+## Details
+
 ### cleverbot.py
 A chatbot created using cleverbot API. 
+
+### fullContact.py
+Provides information like Full name, address, etc., using FullContact API.
