@@ -8,14 +8,14 @@ Before running the programs make sure you have installed the libraries or module
 
 ## Details
 
-### cleverbot.py
+- <b>cleverbot.py</b>
 A chatbot created using cleverbot API. 
 
-### full-contact.py
+- <b>full-contact.py</b>
 Provides information like Full name, address, etc., using FullContact API.
 
-### ipl.py
+- <b>ipl.py</b>
 Get the ipl updates at every 30 seconds. 
 
-### quora.py
-It enables you to use quora from cmd/terminal/shell. It will ask you to enter any question that you need to search on quora, then according to that it will search some(8-10) relevant questions from which you can select a question and after that it will give you an answer of that question. Lastly it'll ask you whether you want more answers(y/n), if you choose 'y' then it'll redirect you to that Quora page where the question and its answers are present. 
+- <b>quora.py</b>
+It enables you to use quora from cmd/terminal/shell. It will ask you to enter any question that you need to search on quora, then     according to that it will search some(8-10) relevant questions from which you can select a question and after that it will give you an answer of that question. Lastly it'll ask you whether you want more answers(y/n), if you choose 'y' then it'll redirect you to that    Quora page where the question and its answers are present. 
