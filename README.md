@@ -24,4 +24,8 @@ It enables you to use quora from cmd/terminal/shell. It will ask you to enter an
  Wolfram Alpha is an online service that answers factual queries directly by computing the answer from externally sourced "curated data".
  Using it's API, this provides various no. of services.
  
+ - <b>youtube.py</b>
+ The program takes name of a song then it will open your default web-browser and it will play that song on youtube.
+ 
+ 
  
