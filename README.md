@@ -12,7 +12,7 @@ Before running the programs make sure you have installed the libraries or module
 A chatbot created using cleverbot API. 
 
 - <b>full-contact.py</b>
-Provides information like Full name, address, etc., using FullContact API.
+Takes email ID as input and provides information like Full name, address, etc., using FullContact API.
 
 - <b>ipl.py</b>
 Get the ipl updates at every 30 seconds. 
