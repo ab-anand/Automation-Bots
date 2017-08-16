@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 from cleverwrap import CleverWrap
 import pyttsx
 import os
