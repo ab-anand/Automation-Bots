@@ -27,7 +27,7 @@ It enables you to use quora from cmd/terminal/shell. It will ask you to enter an
  - <b>youtube.py</b>
  The program takes name of a song then it will open your default web-browser and it will play that song on youtube.
  
- - <b>kiara.py<b> 
+ - <b>kiara.py</b> 
  A mini digital assistant to which can give you information like general questions, weather news, math, and wikipedia info of that topic.
  It has Text-To-Speech feature.
  
