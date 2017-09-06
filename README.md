@@ -30,9 +30,11 @@ Before running the programs make sure you have installed the libraries or module
  Using it's API, this provides various no. of services.
  
  - <b>youtube.py</b>
- The program takes name of a song then it will open your default web-browser and it will play that song on youtube.
+ 
+ - [ ] The program takes name of a song then it will open your default web-browser and it will play that song on youtube.
  
  - <b>kiara.py</b> 
- A mini digital assistant to which can give you information like general questions, weather news, math, and wikipedia info of that topic.
+ 
+ - [ ] A mini digital assistant to which can give you information like general questions, weather news, math, and wikipedia info of that topic.
  It has Text-To-Speech feature.
  
