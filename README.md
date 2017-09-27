@@ -1,7 +1,6 @@
-# My-Bots
+# Automating It!
 
-The codes uses an API key which has been deactivated so you will need to get your own.
-Before running the programs make sure you have installed the libraries or modules. 
+![](https://media.giphy.com/media/RPZu7v6zA2WOI/giphy.gif)
 
 ## View the demo of the bots here at this channel
 [Bots | Youtube](https://www.youtube.com/channel/UCJPR7NC5igzhgzjRFeNWLvQ)
@@ -38,3 +37,5 @@ Before running the programs make sure you have installed the libraries or module
  - [ ] A mini digital assistant to which can give you information like general questions, weather news, math, and wikipedia info of that topic.
  It has Text-To-Speech feature.
  
+ <b>Note</b> - The codes uses an API key which has been deactivated so you will need to get your own.
+Before running the programs make sure you have installed the libraries or modules. 
