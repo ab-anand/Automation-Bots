@@ -1,6 +1,8 @@
 language: python
   python:
     - 2.7
-    - nightly
+    - requests
+    - colorama
+    - BeautifulSoup
   script:
     - quora.py
