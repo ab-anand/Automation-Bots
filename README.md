@@ -42,6 +42,10 @@
  
  - [ ] Generate one paragraph of short lorem ipsum using loripsum.net API.
  
+ - <b>youtubecrawl.py</b> 
+ 
+ - [ ] This is a python script which lets the user download the mp3 type audio file of any video of youtube. It also gives the user an option to download the lyrics in a text file if the video is a song. It makes it very easy for the user to download a video/song of his choice as it just asks the user to enter the name of the video.The results get better and more precise if the user specifies the name of the artist as well.
+ 
  <b>Note</b> - 
  
  1. The codes uses an API key which has been deactivated so you will need to get your own.
