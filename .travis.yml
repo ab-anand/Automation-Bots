@@ -1,0 +1,11 @@
+language: python
+python:
+  - "3.5.2"
+install:
+  - pip install -r requirement.txt
+script: 
+  - python quora.py how to learn algo 1 n 
+sudo: required
+branches:
+  only:
+    - master
