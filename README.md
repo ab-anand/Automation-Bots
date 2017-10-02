@@ -38,5 +38,9 @@
  - [ ] A mini digital assistant to which can give you information like general questions, weather news, math, and wikipedia info of that topic.
  It has Text-To-Speech feature.
  
- <b>Note</b> - The codes uses an API key which has been deactivated so you will need to get your own.
+ <b>Note</b> - 
+ 
+ 1. The codes uses an API key which has been deactivated so you will need to get your own.
 Before running the programs make sure you have installed the libraries or modules. 
+
+2. For contributions check [here](CONTRIBUTING.md)
