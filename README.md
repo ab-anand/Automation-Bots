@@ -1,5 +1,5 @@
 # Automating It! 
-[![Build Status](https://travis-ci.org/arpitx165/Automation-Bots.svg?branch=master)](hhttps://travis-ci.org/arpitx165/Automation-Bots)
+[![Build Status](https://travis-ci.org/arpitx165/Automation-Bots.svg?branch=master)](https://travis-ci.org/arpitx165/Automation-Bots)
 
 ![](https://media.giphy.com/media/RPZu7v6zA2WOI/giphy.gif)
 
