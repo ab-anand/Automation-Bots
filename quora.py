@@ -7,6 +7,7 @@ init()
 #os.environ["HTTPS_PROXY"] = "http://username:pass@192.168.1.107:3128"
 import requests
 from bs4 import BeautifulSoup
+import time
 
 headers = {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36'}
 
@@ -63,3 +64,5 @@ print('        <----------------------------------/-----------------------------
 a= arg[len(arg)-1]
 if a is 'y':
     webbrowser.open(url)
+    time.sleep(2)
+    exit()
