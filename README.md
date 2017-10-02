@@ -37,6 +37,10 @@
  
  - [ ] A mini digital assistant to which can give you information like general questions, weather news, math, and wikipedia info of that topic.
  It has Text-To-Speech feature.
+
+  - <b>loremipsum.py</b> 
+ 
+ - [ ] Generate one paragraph of short lorem ipsum using loripsum.net API.
  
  <b>Note</b> - 
  
