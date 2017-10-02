@@ -1,4 +1,4 @@
-# Automating It! ![](https://travis-ci.org/ab-anand/Automation-Bots.svg?branch=master)
+# Automating It! 
 
 
 ![](https://media.giphy.com/media/RPZu7v6zA2WOI/giphy.gif)
