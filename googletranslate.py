@@ -17,12 +17,11 @@ parser.add_argument("-sl", "--sourcelanguage", help="source language; Default va
 parser.add_argument("-tl", "--targetlanguage", help="target language; Default value: en",
                     type=str, default="en", metavar="")
 args = parser.parse_args()
-print args
 sourceText = args.sourcetext.decode("utf8")
 sourceLang = args.sourcelanguage.decode("utf8")
 targetLang = args.targetlanguage.decode("utf8")
 
-# invoke google translate
+# Invoke google translate
 url = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=" \
         + sourceLang + "&tl=" + targetLang + "&dt=t&q=" + urllib.quote(sourceText.encode('utf8'))
 headers = {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36'}
