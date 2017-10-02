@@ -4,7 +4,7 @@ python:
 install:
   - pip install -r requirement.txt
 script: 
-  - python quora.py how to learn algo 1 y 
+  - python quora.py how to learn algo 1 n 
 sudo: required
 branches:
   only:
