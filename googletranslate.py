@@ -28,5 +28,5 @@ headers = {'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleW
 sc = requests.get(url, headers=headers)
 
 translatedText = re.findall(r'"([^"]*)"', sc.text)[0]
-print "Source Text: " + sourceText
-print "Translation: " + translatedText
+print ("Source Text: " + sourceText)
+print ("Translation: " + translatedText)
