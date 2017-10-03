@@ -54,6 +54,10 @@
  - [ ] The script can translate words via Google Translate between different languages. The detailed usage can be found by running the following command:
  `python googletranslate.py -h`
 
+ - <b>codechef_submission.py</b>
+
+ - [ ] An automated codechef submission tool using selenium webdriver. Just provide problem code and name of your submission file and get result of your submission in terminal itself.
+
  <b>Note</b> -
  
  1. The codes uses an API key which has been deactivated so you will need to get your own.
