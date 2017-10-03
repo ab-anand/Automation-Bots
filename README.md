@@ -49,9 +49,13 @@
  - <b>earthquake.py</b> 
 
  - [ ] Monitoring earthquakes around the planet using data from [https://earthquake.usgs.gov/](https://earthquake.usgs.gov/).
+ - <b>googletranslate.py</b>
+
+ - [ ] The script can translate words via Google Translate between different languages. The detailed usage can be found by running the following command:
+ `python googletranslate.py -h`
 
  <b>Note</b> -
-
+ 
  1. The codes uses an API key which has been deactivated so you will need to get your own.
 Before running the programs make sure you have installed the libraries or modules.
 
