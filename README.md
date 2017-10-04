@@ -58,6 +58,14 @@
 
  - [ ] An automated codechef submission tool using selenium webdriver. Just provide problem code and name of your submission file and get result of your submission in terminal itself.
 
+ - <b>worldtime.py</b>
+
+ - [ ] A terminal tool to check the time of anywhere.
+
+ - [ ] Usage: `python worldtime.py -l <location>`
+
+ - [ ] i.e.: `python worldtime.py -l London`, the output will be `London, United Kingdom 2017-10-04 01:27:46`
+
  <b>Note</b> -
  
  1. The codes uses an API key which has been deactivated so you will need to get your own.
