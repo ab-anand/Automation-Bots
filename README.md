@@ -46,7 +46,7 @@
 
  - [ ] This is a python script which lets the user download the mp3 type audio file of any video of youtube. It also gives the user an option to download the lyrics in a text file if the video is a song. It makes it very easy for the user to download a video/song of his choice as it just asks the user to enter the name of the video.The results get better and more precise if the user specifies the name of the artist as well.
 
- - <b>earthquake.py</b> 
+ - <b>earthquake.py</b>
 
  - [ ] Monitoring earthquakes around the planet using data from [https://earthquake.usgs.gov/](https://earthquake.usgs.gov/).
  - <b>googletranslate.py</b>
@@ -65,13 +65,19 @@
  - [ ] Usage: `python worldtime.py -l <location>`
 
  - [ ] i.e.: `python worldtime.py -l London`, the output will be `London, United Kingdom 2017-10-04 01:27:46`
- 
+
  - <b>wiki-crawler.py</b>
- 
- - [ ] A web crawler that you feed a starting article and an ending article. The crawler then follows article links until it finds your ending article. 
+
+ - [ ] A web crawler that you feed a starting article and an ending article. The crawler then follows article links until it finds your ending article.
+
+ - <b>pokeapi.py</b>
+
+ - [ ] Script that consumes the [Pokéapi](https://pokeapi.co/) and returns pokémon info.
+
+ - [ ] Usage: `python pokeapi.py`
 
  <b>Note</b> -
- 
+
  1. The codes uses an API key which has been deactivated so you will need to get your own.
 Before running the programs make sure you have installed the libraries or modules.
 
