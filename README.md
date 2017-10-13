@@ -76,6 +76,10 @@
 
  - [ ] Usage: `python pokeapi.py`
 
+ - <b>exchange_rates.py</b>
+
+ - [ ] You enter a currency code and get actual information about the currency exchange rates.
+ 
  <b>Note</b> -
 
  1. The codes uses an API key which has been deactivated so you will need to get your own.
