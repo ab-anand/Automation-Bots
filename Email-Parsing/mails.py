@@ -19,7 +19,7 @@ mail.login(FROM_EMAIL, FROM_PWD)
 mail.list()
 mail.select('inbox')
 
-i = 1
+i = 0
 
 def main():
 	global i
@@ -54,15 +54,19 @@ def main():
 		maintype = email_message.get_content_maintype()
 		#print maintype
 
-		if maintype == 'multipart':
+		if maintype == 'multipart': # get the body of the mail
 		    for part in email_message.get_payload():
 		            if part.get_content_maintype() == 'text':
-		                print part.get_payload()
+		            	line = part.get_payload()
+		            	line = re.sub('<[^>]*>',' ', line)
+		                print line
 		elif maintype == 'text':
-		    print email_message.get_payload()
+			line = email_message.get_payload()
+			line = re.sub('<[^>]*>',' ', line)
+			print line
 		print '*'*69
 		welcome()
-		inp = raw_input('>> Enter you choice: ').lower()
+		inp = raw_input('>> Enter your choice: ').lower()
 
 
 
@@ -77,3 +81,5 @@ def welcome():
 
 if __name__ == '__main__':
 	main() 
+
+
