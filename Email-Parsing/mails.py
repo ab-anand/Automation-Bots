@@ -1,4 +1,4 @@
-#Read your inbox email and automate the boring stuff.
+#Reading inbox emails from CLI.
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # __author__ == 'abhinav anand'
@@ -55,14 +55,9 @@ def main():
 		#print maintype
 
 		if maintype == 'multipart': # get the body of the mail
-		    for part in email_message.get_payload():
-		            if part.get_content_maintype() == 'text':
-		            	line = part.get_payload()
-		            	line = re.sub('<[^>]*>',' ', line)
-		                print line
+		    print email_message.get_payload()[0].get_payload() # to get the plain text only
 		elif maintype == 'text':
-			line = email_message.get_payload()
-			line = re.sub('<[^>]*>',' ', line)
+			line = email_message.get_payload()[ 0 ]
 			print line
 		print '*'*69
 		welcome()
@@ -75,11 +70,9 @@ def clear():
 
 def welcome():
     print '\n'
-    print '>> Enter \'n\' to check next mail'
-    print '>> Enter \'p\' to check previous mail'
+    print '>> Enter \'n\' to check NEXT mail'
+    print '>> Enter \'p\' to check PREVIOUS mail'
     print '>> Enter \'q\' to QUIT'   
 
 if __name__ == '__main__':
 	main() 
-
-
