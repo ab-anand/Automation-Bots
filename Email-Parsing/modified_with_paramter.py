@@ -55,16 +55,32 @@ def main():
 		    body = email_message.get_payload()[0].get_payload() # to get the plain text only
 		    dols = extract_dol(body)
 		    phone_no = get_phoneNumber(body)
-		    print 'Phone Number: ', phone_no
+
+		    print 'Phone Number ', phone_no
+
+		    remain = remaining_msg(body, phone_no, dols)
+
 		    for dol in dols:
 		    	print str(dol)
+
+		    print '\n'
+
+		    for re in remain:
+		    	print str(re)
 		elif maintype == 'text':
 			line = email_message.get_payload()[ 0 ]
 			dols = extract_dol(line)
 			phone_no = get_phoneNumber(line)
 			print 'Phone Number: ', phone_no
-			for dol in dols:	
+			remain = remaining_msg(line, phone_no, dols)
+
+			for dol in dols:
 				print str(dol)
+
+			print '\n'
+
+			for re in remain:
+				print str(re)
 		print '*'*69
 		welcome()
 		inp = raw_input('>> Enter your choice: ').lower()
@@ -103,7 +119,20 @@ def get_phoneNumbers(s, regex):
 	in the input string '''
 	return (phoneNumber for phoneNumber in re.findall(regex, s))
 
-
+def remaining_msg(msg, phone_no, dol):
+	''' with a purpose of fetching location
+	we simply return whatever is remained in
+	the message body'''
+	msg = msg.split('\n')
+	phone_no = phone_no.split()
+	exclude = []
+	for line in msg:
+		for no in phone_no:
+			if no in line:
+				exclude.append(line)
+	dol = [str(a) for a in dol]
+	exclude.extend(dol)
+	return [remain for remain in msg if remain not in exclude]
 
 def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
