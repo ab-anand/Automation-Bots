@@ -5,6 +5,7 @@
 
 import base64, imaplib, email, re, os
 import getpass
+from info import us_states as states
 
 # some required datas to initialize with
 imaplib._MAXLINE = 400000
@@ -47,7 +48,8 @@ def main():
 		print 'Sent from:', email_message['From']
 		print 'Date:', email_message['Date']
 		print 'Subject:', email_message['Subject']
-		print '*'*30, 'MESSAGE', '*'*30
+		#print '*'*30, 'MESSAGE', '*'*30
+		print '\n'
 		maintype = email_message.get_content_maintype()
 		#print maintype
 
@@ -56,17 +58,18 @@ def main():
 		    dols = extract_dol(body)
 		    phone_no = get_phoneNumber(body)
 
-		    print 'Phone Number ', phone_no
+		    print 'Phone Number: ', phone_no
 
-		    remain = remaining_msg(body, phone_no, dols)
+		    # remain = remaining_msg(body, phone_no, dols)
+		    loc = location(body)
 
 		    for dol in dols:
 		    	print str(dol)
 
 		    print '\n'
 
-		    for re in remain:
-		    	print str(re)
+		    print 'Location: ',str(loc)
+
 		elif maintype == 'text':
 			line = email_message.get_payload()[ 0 ]
 			dols = extract_dol(line)
@@ -81,7 +84,7 @@ def main():
 
 			for re in remain:
 				print str(re)
-		print '*'*69
+		# print '*'*69
 		welcome()
 		inp = raw_input('>> Enter your choice: ').lower()
 
@@ -133,6 +136,17 @@ def remaining_msg(msg, phone_no, dol):
 	dol = [str(a) for a in dol]
 	exclude.extend(dol)
 	return [remain for remain in msg if remain not in exclude]
+
+def location(msg):
+	''' the location ends with either state name or PIN
+	using that this function checks for the words in each line
+	if it contains the state then it will return the line'''
+	msg = msg.split('\n')
+	for line in msg:
+		words = line.split()
+		for word in words:
+			if word in states:
+				return line
 
 def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
