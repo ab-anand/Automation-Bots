@@ -1,8 +1,7 @@
 # Automating It!
 [![Build Status](https://travis-ci.org/arpitx165/Automation-Bots.svg?branch=master)](https://travis-ci.org/arpitx165/Automation-Bots)
 
-![](https://media.giphy.com/media/RPZu7v6zA2WOI/giphy.gif)
-
+<img src="https://media.giphy.com/media/RPZu7v6zA2WOI/giphy.gif" width="700"/>
 ## View the demo of the bots here at this channel
 [Bots | Youtube](https://www.youtube.com/channel/UCJPR7NC5igzhgzjRFeNWLvQ)
 
