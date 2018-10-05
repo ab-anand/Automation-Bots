@@ -79,10 +79,14 @@
  - <b>exchange_rates.py</b>
 
  - [x] You enter a currency code and get actual information about the currency exchange rates.
- 
+
  - <b>Email Parsing</b>
  - [x] An email parsing tool right from the CLI
- 
+
+ - <b>vurl.py</b>
+ - [x] Tool that shorten links using the vurl api.
+ - [x] Usage: `python vurl.py [-h] -l LINKS [LINKS ...]`
+
  <b>Note</b> -
 
  1. The codes uses an API key which has been deactivated so you will need to get your own.
