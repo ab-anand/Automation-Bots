@@ -87,9 +87,15 @@
  - [x] Tool that shorten links using the vurl api.
  - [x] Usage: `python vurl.py [-h] -l LINKS [LINKS ...]`
 
+- <b>youtubeTrailers.py</b>
+
+- [x] Automated script that fetches you latest trailers of movies from youtube. For example trailers of English movies.
+- [x] Usage: `python youtubeTrailers.py <language-name>`
+
  - <b>fakeuser.py</b>
  - [x] Tool that returns random fake profile data.
  - [x] Usage: `python fakeuser.py`
+
 
  <b>Note</b> -
 
