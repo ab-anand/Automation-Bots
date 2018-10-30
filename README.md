@@ -87,6 +87,10 @@
  - [x] Tool that shorten links using the vurl api.
  - [x] Usage: `python vurl.py [-h] -l LINKS [LINKS ...]`
 
+ - <b>fakeuser.py</b>
+ - [x] Tool that returns random fake profile data.
+ - [x] Usage: `python fakeuser.py`
+
  <b>Note</b> -
 
  1. The codes uses an API key which has been deactivated so you will need to get your own.
