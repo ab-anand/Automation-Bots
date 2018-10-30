@@ -95,6 +95,9 @@
  - <b>fakeuser.py</b>
  - [x] Tool that returns random fake profile data.
  - [x] Usage: `python fakeuser.py`
+ 
+ - <b>clap_activated_switch_arduino<b>
+ - [x] Automation mean simplifying human life. This file can be burn in Arduino and you can control any one electrical device with your clap.
 
 
  <b>Note</b> -
