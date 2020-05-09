@@ -62,6 +62,7 @@
  - <b>Codechef automation bot</b>
  
  - [x] This is a bot used for downloading the testcases from codechef contests and testing them against given testcases and submiting the solutions all done in command line *(for more details checkout the 'README.md' file in 'Codechef _automation_bot' folder).*
+ - [x] To checkout this repo use [this link](https://github.com/parikshith19/codechef_automation_bot).
  - <b>worldtime.py</b>
 
  - [x] A terminal tool to check the time of anywhere.
