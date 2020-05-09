@@ -1,0 +1,11 @@
+README.txt
+setup.py
+src/simple_crypt.egg-info/PKG-INFO
+src/simple_crypt.egg-info/SOURCES.txt
+src/simple_crypt.egg-info/dependency_links.txt
+src/simple_crypt.egg-info/requires.txt
+src/simple_crypt.egg-info/top_level.txt
+src/simplecrypt/__init__.py
+src/simplecrypt/example-file.py
+src/simplecrypt/example-interactive.py
+src/simplecrypt/tests.py
